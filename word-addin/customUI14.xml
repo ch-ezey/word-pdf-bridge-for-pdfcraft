@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="pdfcraftTab" label="PdfCraft">
+        <group id="pdfcraftCreateGroup" label="Create PDF">
+          <button id="pdfcraftCreatePdf" label="Create PDF" size="large" imageMso="FileSaveAsPdfOrXps"
+                  screentip="Create PDF"
+                  supertip="Save this document as a PDF next to it (same name, .pdf) and open it in PdfCraft. An unsaved document asks where to save."
+                  onAction="PdfCraft_CreatePdf"/>
+          <button id="pdfcraftCreatePdfAs" label="Create PDF as..." size="large" imageMso="FileSaveAs"
+                  screentip="Create PDF as"
+                  supertip="Choose where to save the PDF, then open it in PdfCraft."
+                  onAction="PdfCraft_CreatePdfAs"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
